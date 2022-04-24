@@ -1,0 +1,16 @@
+.socialicone-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.socialicone{
+    color: #6d9982;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #282c34;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #6d9982;
+    border-radius: 50%;
+    font-size: 40px;
+}

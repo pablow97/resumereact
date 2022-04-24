@@ -1,0 +1,63 @@
+.animated-progress {
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .progress-text{
+    display: block;
+    min-width: 70px;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #f8f8f8;
+    line-height: 28px;
+    position: absolute;
+    z-index: 2;
+    top: 4px;
+    border-radius: 0;
+    background: var(--scdark);
+    height: 26px;
+    font-size: 13px;
+    margin: 0 3px;
+    border-radius: 5px;
+    padding: 0 1em;
+    text-align: center;
+  }
+  .progress-span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 34px;
+    position: absolute;
+    text-align: end;
+    border-radius: 5px;
+    background: linear-gradient(to left, var(--sclight) 50%, #282c3400 50%) right;
+    background-size: 200%;
+    background-position: left;
+
+  }
+  .progress-box.active .progress-span{
+    animation: progress-move forwards .8s linear;
+  }
+
+  .progress-outer{
+    background:  var(--background);;
+    width: 100%;
+    z-index: -1;
+    box-shadow: inset 0px 0px 20px 0px rgb(75 82 98);
+    height: 100%;
+    display: block;
+    line-height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    animation: FadeIn forwards .5s linear;
+  }
+
+
+  @keyframes progress-move{
+    0%{background-position: left;}
+    100%{background-position: right;}
+  }
