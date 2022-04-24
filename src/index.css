@@ -1,0 +1,93 @@
+:root {
+  --sclight: #6d9982;
+  --scdark: #507160;
+  --white: #ffffff;
+  --background: #21252b;
+  --color: #f8f8f8;
+}
+
+@font-face{
+	font-family:'iransansdn';
+	src: local('iransansdn'), url('./fonts/iransansdn/IRANSansDN.ttf') format('ttf');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'iransansdn' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 2em;
+  width: 100%;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--color);
+  direction: rtl;
+}
+::selection {
+  background-color: var(--sclight);
+  color:  var(--color);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+}
+::-webkit-scrollbar-button {
+    width: 2px;
+    height: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--sclight) !important;
+    border-radius:3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scdark) !important;
+}
+::-webkit-scrollbar-track {
+    background: #dcdde1 !important;
+    border-radius: 3px;
+}
+a{
+  text-decoration: none !important;
+  color: var(--color);
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+.flex{ 
+  display: flex;
+}
+@media (min-width: 576px){
+  .container {
+      max-width: 540px;
+  }
+  }
+@media (min-width: 768px){
+.container {
+    max-width: 720px;
+}
+}
+@media (min-width: 992px){
+  .container {
+      max-width: 960px;
+  }
+  }
+@media (min-width: 1200px){
+  .container {
+      max-width: 1140px;
+  }
+  }
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
