@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/resumereact/static/css/main.0d5a7c29.css",
+    "main.js": "/resumereact/static/js/main.4b3f04bc.js",
+    "static/js/787.4a9ad9f6.chunk.js": "/resumereact/static/js/787.4a9ad9f6.chunk.js",
+    "static/media/pablogo-nc.png": "/resumereact/static/media/pablogo-nc.f6467fc53cf9e91152d9.png",
+    "static/media/IRANSansDN.ttf": "/resumereact/static/media/IRANSansDN.68e5870cc256f9ffe66a.ttf",
+    "static/media/helpdesk.svg": "/resumereact/static/media/helpdesk.600cccac6dafe8e046f13b0eba5de89b.svg",
+    "static/media/webdesign.svg": "/resumereact/static/media/webdesign.9cacf437df4e906d7beaf3b146f2a4ce.svg",
+    "static/media/design.svg": "/resumereact/static/media/design.7113d0c47b25fc10223463988792e6bc.svg",
+    "static/media/developer.svg": "/resumereact/static/media/developer.7ad038acca7fca50aa74763b11271dc5.svg",
+    "index.html": "/resumereact/index.html",
+    "main.0d5a7c29.css.map": "/resumereact/static/css/main.0d5a7c29.css.map",
+    "main.4b3f04bc.js.map": "/resumereact/static/js/main.4b3f04bc.js.map",
+    "787.4a9ad9f6.chunk.js.map": "/resumereact/static/js/787.4a9ad9f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d5a7c29.css",
+    "static/js/main.4b3f04bc.js"
+  ]
+}
