@@ -65,7 +65,6 @@
   left: 10px;
 }
 .logobox:hover::after{
-  /* animation: heart infinite 2s linear; */
   transform: scale(1.2);
 }
 .header-title{
